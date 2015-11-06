@@ -612,4 +612,9 @@ let g:indentLine_color_tty_light = 7 " (default: 4)
 let g:indentLine_color_dark = 1 " (default: 2)
 let g:indentLine_char = '¦' 
 let g:indentLine_enabled = 1 
+"############vim shell#############
+"pre process
+Bundle 'Shougo/vimproc.vim'  # do not foget cd ~.vim/bundle/vimproc.vim/autoload/ and make
+"main
+Bundle 'Shougo/vimshell.vim'
 "------------------------------------------- end of configs --------------------------------------------
