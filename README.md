@@ -98,6 +98,7 @@ molokai主题
 
 
         2.2 使用Python
+        sudo pip install flake8
         sudo pip install pyflakes
         sudo pip install pylint
         sudo pip install pep8
