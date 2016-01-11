@@ -313,6 +313,8 @@ let g:ctrlsf_mapping = {
 " git.  git操作还是习惯命令行,vim里面处理简单diff编辑操作
 " :Gdiff  :Gstatus :Gvsplit
 Bundle 'tpope/vim-fugitive'
+cnoreabbrev gd Gvdiff
+cnoreabbrev gb Gblame
 nnoremap <leader>ge :Gdiff<CR>
 " not ready to open
 " <leader>gb maps to :Gblame<CR>
