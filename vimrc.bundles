@@ -621,4 +621,6 @@ autocmd FileType python nnoremap <leader>y :0,$!yapf<Cr>
 Bundle 'Shougo/vimproc.vim'  " do not foget cd ~.vim/bundle/vimproc.vim/autoload/ and make
 "main
 Bundle 'Shougo/vimshell.vim'
+"####he_silver_searcher####
+Bundle 'rking/ag.vim'
 "------------------------------------------- end of configs --------------------------------------------
