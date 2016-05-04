@@ -618,9 +618,9 @@ autocmd FileType python nnoremap <leader>y :0,$!yapf<Cr>
 " let g:indentLine_enabled = 1 
 "############vim shell#############
 "pre process
-Bundle 'Shougo/vimproc.vim'  " do not foget cd ~.vim/bundle/vimproc.vim/autoload/ and make
+"Bundle 'Shougo/vimproc.vim'  " do not foget cd ~.vim/bundle/vimproc.vim/autoload/ and make
 "main
-Bundle 'Shougo/vimshell.vim'
+"Bundle 'Shougo/vimshell.vim'
 "####he_silver_searcher####
 Bundle 'rking/ag.vim'
 "------------------------------------------- end of configs --------------------------------------------
