@@ -42,14 +42,14 @@ echo "Step5: compile YouCompleteMe"
 echo "It will take a long time, just be patient!"
 echo "If error,you need to compile it yourself"
 echo "cd $CURRENT_DIR/bundle/YouCompleteMe/ && bash -x install.sh --clang-completer"
-cd $CURRENT_DIR/bundle/YouCompleteMe/
+#cd $CURRENT_DIR/bundle/YouCompleteMe/
 
-if [ `which clang` ]   # check system clang
-then
-    bash -x install.sh --clang-completer --system-libclang   # use system clang
-else
-    bash -x install.sh --clang-completer
-fi
+#if [ `which clang` ]   # check system clang
+#then
+#    bash -x install.sh --clang-completer --system-libclang   # use system clang
+#else
+#    bash -x install.sh --clang-completer
+#fi
 
 
 #vim bk and undo dir
